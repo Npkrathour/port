@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar flex items-center justify-between h-16 w-[90%] mx-auto px-2 md:px-3 rounded-xl mt-5">
+            <div class="navbrand">
+                <h1 class="text-lg">Hello <span class="text-blue-600">Guys</span></h1>
+            </div>
+            <div id="openMenu"
+                class="md:static absolute md:min-h-fit min-h-[83vh] left-[-100%] top-[15%] md:w-auto w-[90%] rounded-lg mx-auto bg-slate-200 md:bg-inherit duration-700">
+                <ul class="flex md:flex-row flex-col gap-5 my-4 md:gap-1 px-2 justify-center items-center">
+                    <li class="bg-gray-400 md:bg-inherit w-full md:w-auto py-3 px-3 rounded-lg"><a href=""
+                            class="inline-flex items-center justify-center gap-2 text-black md:text-gray-600 md:text-base text-base bg-gray-200 px-4 py-1 rounded-md">
+                            <ion-icon name="home-outline"></ion-icon>
+                            Home</a>
+                    </li>
+                    <li class="bg-gray-400 md:bg-inherit w-full md:w-auto py-3 px-3 rounded-lg"><a href=""
+                            class="inline-flex items-center justify-center gap-2 text-black md:text-gray-600 md:text-base text-base hover:bg-gray-200 bg-gray-100 px-4 py-1 rounded-md duration-200"><ion-icon
+                                name="person-outline"></ion-icon>About</a>
+                    </li>
+                    <li class="bg-gray-400 md:bg-inherit w-full md:w-auto py-3 px-3 rounded-lg"><a href=""
+                            class="inline-flex items-center justify-center gap-2 text-black md:text-gray-600 md:text-base text-base hover:bg-gray-200 bg-gray-100 px-4 py-1 rounded-md duration-200"><ion-icon
+                                name="logo-buffer"></ion-icon>Service</a>
+                    </li>
+                    <li class="bg-gray-400 md:bg-inherit w-full md:w-auto py-3 px-3 rounded-lg"><a href=""
+                            class="inline-flex items-center justify-center gap-2 text-black md:text-gray-600 md:text-base text-base hover:bg-gray-200 bg-gray-100 px-4 py-1 rounded-md duration-200"><ion-icon
+                                name="qr-code-outline"></ion-icon>Works</a>
+                    </li>
+                    <li class="bg-gray-400 md:bg-inherit w-full md:w-auto py-3 px-3 rounded-lg"><a href=""
+                            class="inline-flex items-center justify-center gap-2 text-black md:text-gray-600 md:text-base text-base hover:bg-gray-200 bg-gray-100 px-4 py-1 rounded-md duration-200"><ion-icon
+                                name="finger-print-outline"></ion-icon>Blogs</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="chat_tabs flex items-center gap-2">
+                <a href="contact.html"
+                    class="px-3 md:px-5 py-3 bg-black text-white md:text-sm text-sm rounded-lg inline-flex items-center justify-center gap-2 hover:bg-blue-600 duration-500">Let's
+                    Talk <ion-icon name="logo-whatsapp"></ion-icon></a>
+                <ion-icon onclick="togglemenu();" name="menu-outline"
+                    class="text-4xl cursor-pointer md:hidden"></ion-icon>
+
+            </div>
+        </nav>
+    </header>
+    <!-- ================banner section=============== -->
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="assets/js/main.js"></script>
+
+</html>
